@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 100%;
+    height: 10vh;
+}
+.div1 ul{
+    list-style: none;
+    display: flex;
+    padding-top: 17px;
+    float: right;
+    padding-right: 50px;
+}
+li{
+    padding: 5px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+.link1:hover{
+    background-color: rgba(194, 9, 9, 0.897);
+    border: 0;
+    color: floralwhite;
+    border-radius: 3px;
+    transition: 1s;
+}
+.link2:hover{
+    background-color: rgba(194, 9, 9, 0.897);
+    border: 0;
+    color: floralwhite;
+    border-radius: 3px;
+    transition: 1s;
+}
+.link3:hover{
+    background-color: rgba(194, 9, 9, 0.897);
+    border: 0;
+    color: floralwhite;
+    border-radius: 3px;
+    transition: 1s;
+}
+.link4:hover{
+    background-color: rgba(194, 9, 9, 0.897);
+    border: 0;
+    color: floralwhite;
+    border-radius: 3px;
+    transition: 1s;
+}
+.div2{
+    background-color: rgba(194, 9, 9, 0.897);
+    height: 90vh;
+    width: 60px;
+}
+.main{
+    display: flex;
+}
+.div3{
+    background-image: url(imgs/img_01.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.div3 {
+    color: white;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.div3 h1{
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.div3 .deli{
+    color: rgba(194, 9, 9, 0.897);
+}
+.div3 button{
+    margin-top: 50px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div3 button:hover{
+    background-color: rgba(194, 9, 9, 0.897);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.pg2 h2{
+    text-align: center;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    padding-top: 30px;
+}
+.items{
+    display: flex;
+    align-content: space-between;
+    padding-top: 5%;
+    padding-left: 200px;
+}
+.pg2{
+    height: 130vh;
+    width: 100%;
+}
+.items .item1{
+    box-sizing: border-box;
+    height: 140px;
+    width: 33%;
+}
+.item1 p{
+    padding-top: 15px;
+}
+.pg2 .btn{
+    margin-left: 47%;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: rgba(194, 9, 9, 0.897);
+    color: white;
+}
+.pg2 .btn:hover{
+    cursor: pointer;
+}
+.dishes h3{
+    margin-top: 25px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.dish-img{
+    display: flex;
+}
+.dish1{
+    margin-left: 37px;
+}
+.dish1 p{
+    padding-top: 10px;
+}
+.dish1 button{
+    margin-top: 5px;
+    padding: 5px;
+}
+.dish1{
+    box-sizing: border-box;
+    height: 340px;
+    border: 0.5px solid rgba(0, 0, 0, 0.418);
+    width: 33%;
+}
+.dish1 button{
+    border-radius: 3px;
+    border: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
+}
+.dish1 button:hover{
+    cursor: pointer;
+    background-color: rgba(194, 9, 9, 0.897);
+    transition: 1s;
+    color: white;
+}
+.pg3{
+    height: 70vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-image: url(imgs/login.jpg);
+    background-size: cover;
+    width: 100%;
+}
+.pg3 h2{
+    padding-top: 40px;
+}
+.pg3 h2 h5{
+    font-weight: 200;
+}
+.pg3 .em,.pas{
+    line-height: 23px;
+    width: 26%;
+
+}
+.pg3 .sbt{
+    height: 22px;
+    width: 17%;
+    border: 0;
+    background-color: rgb(230, 230, 154);
+    color: white;
+    font-size:x-small;
+}
+.pg3 .sbt:hover{
+    background-color:rgba(230, 230, 154, 0.767);
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  footer .nav li {
+    margin-right: 20px;
+  }
+  
+  footer .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer .social {
+    display: flex;
+  }
+  
+  footer .social a {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer .copyright p {
+    margin: 0;
+    font-size: small;
+  }
